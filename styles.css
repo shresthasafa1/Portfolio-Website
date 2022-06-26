@@ -1,0 +1,88 @@
+body{
+    /* background: #f0e4ce;  */
+    /* background: linear-gradient(-190deg, rgb(20,250,24), rgb(101, 90, 148)); */
+    /* background: radial-gradient(circle, red, blue, green); */
+    background-image: url(images/foad-roshan-3u1Rk-gylKM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.nav-bar{
+    margin-left:50px ;
+    margin-right: 60px;
+    display: inline-block;
+    align-items: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white; 
+}
+.nav-bar li:first-child{
+    float: left;
+    color: white;
+    float: left;
+}
+.nav-bar li{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 20px;
+    float: right;    
+}
+.container{
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: center;
+    border: 1px solid;
+    
+}
+.intro{
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid;
+    align-items: center;
+}
+.intro h3{
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    border: 1px solid;
+    padding: 20px;
+    font-size: 40px;
+    
+}
+.content{
+    margin-top: 100px;
+}
+.image{
+    width: 40%;
+    float: right;
+    padding-top: 50px;
+}
+
+.business{
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+}
+.form{
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+}
+.button{
+  
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
