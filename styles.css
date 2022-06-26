@@ -33,7 +33,7 @@ body{
     margin: 20px;
     color: white;
     display: flex;
-    flex-direction: column;
+    
     flex-wrap: wrap;
     justify-content: space-between ;
     align-items: center;
@@ -45,8 +45,7 @@ body{
     padding-left: 100px;
     padding-right: 100px;
     margin: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+   
     border: 1px solid;
     align-items: center;
 }
@@ -77,6 +76,16 @@ body{
     border: 1px solid;
     margin: 20px;
     padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.inputs{
+    flex-direction: row;
+    border: 1px solid;
+    padding: 20px;
+    float: right;
 }
 .button{
   
