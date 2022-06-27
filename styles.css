@@ -1,49 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     /* background: #f0e4ce;  */
     /* background: linear-gradient(-190deg, rgb(20,250,24), rgb(101, 90, 148)); */
     /* background: radial-gradient(circle, red, blue, green); */
-   
+   /* background-color: #F8F8F8; */
     background-size: cover;
     font-family: sans-serif;
+ 
 }
+
+/* styles for the navigation bar */
+
 .nav-bar{
-    margin-left:50px ;
-    margin-right: 60px;
+    padding: 20px;
     display: inline-block;
     align-items: center;
+    /* border: 1px solid; */
+    display: flex;
+ 
+    flex-direction: row-reverse;
+    padding-right: 100px;
+    /* background-color: #F8F8F8; */
 }
+
 .nav-bar a{
     text-decoration: none;
     color: black; 
 }
-.nav-bar li:first-child{
-    float: left;
-    color: black;
-    float: left;
+li:first-child{
+    
+    margin-right: 990px;
 }
-.nav-bar li{
+
+.nav-bar ul li{
     text-decoration: none;
     color: black;
     display: inline;
-    padding: 20px;
-    float: right;    
+    padding: 20px;   
 }
+
+/* styles for the main container */
+
 .container{
-    margin: 20px;
-    color: black;
+    
+   
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    border: 1px solid;
+    /* border: 1px solid; */
     
 }
+
+/*styles for the introduction part */
+
 .intro{
     padding: 20px;
     margin: 20px;
-    border: 1px solid;
-
-    width: 70%;
+    /* border: 1px solid; */
+    width: 60%;
+    
 
 }
 .intro h2{
@@ -65,36 +84,126 @@ body{
 }
 
 .image{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     padding-top: 50px;
     /* margin-right: 30%; */
 }
 .button{
     margin-left: 50px;
-    
     font-size: 20px;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+    background-color: #94C5CC;
+    border-radius: 3px;
+    border: none;
+    
+}
+.button:hover{
+    background-color: #9FCBD1;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
+
+/*styles for the business part*/
+
 .business{
-    border: 1px solid;
-    padding: 20px;
+    /* border: 1px solid; */
+    padding: 10px;
     margin: 20px;
+    background: url(images/steve-johnson-NONkmCSQ1CE-unsplash.jpg);
+    background-size:cover;
+    height: 1000px;
+    color: white;
 }
-.form{
-    border: 1px solid;
-    margin: 20px;
-    padding: 20px;
-    flex-direction: column;
+.business h2{
+    padding: 200px;
+    display: block;
+    font-size: 55px;
+    /* border: 1px solid; */
+    height: 200px;
+    width: 40%;
+}
+.business p{
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 100px;
+    /* border: 1px solid; */
+    width: 45%;
+    float: left;
+    line-height: 1.5;
     
+}
+.business-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*styles for form */
+.form{
+    /* border: 1px solid;  */
+    width: 70%;
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+}
+
+.form p{
+    /* border: 1px solid;   */
+    padding: 10px;    
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 2;
 }
 
 .inputs{
-    flex-direction: row;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 20px;
-    float: right;
+    display: block;
+    width: 60%;
+    margin-left: 100px;
+    
+}
+.inputs form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: #F8F8F8;
+
+}
+.inputs form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: #F8F8F8;
+
+}
+.inputs form button{
+    margin: 10px;
+    font-size: 20px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+    background-color: #94C5CC;
+    border-radius: 3px;
+    border: none;
+}
+.inputs form button:hover{
+    background-color: #9FCBD1;
+    transition: 0.3s;
+    cursor: pointer;
 }
